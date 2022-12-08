@@ -6,6 +6,7 @@
         <div class="col-md-10">
             <div class="card">
                 <div class="card-body">
+                    <h2>Users</h2>
                     <table class="table table-bordered">
                         <tr>
                             <th>Name</th>
