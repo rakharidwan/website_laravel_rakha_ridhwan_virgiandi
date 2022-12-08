@@ -7,6 +7,9 @@
             <div class="card">
                 <div class="card-body">
                     <h2>Users</h2>
+                    <div class="d-gri d-md-flex justify-content-md-end mb-3">
+                        <a href="{{ url('/users/create') }}" class="btn btn-primary">Create</a>
+                    </div>
                     <table class="table table-bordered">
                         <tr>
                             <th>Name</th>
@@ -18,7 +21,6 @@
                                 <td>{{ $user->name }}</td>
                                 <td>{{ $user->email }}</td>
                                 <td>
-                                    <a href="{{ url('/users/create') }}" class="btn btn-primary">Create</a>
                                     <a href="{{ url('/users/edit'.$user->id) }}" class="btn btn-warning">Edit</a>
                                 </td>
                             </tr>
